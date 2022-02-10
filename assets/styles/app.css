@@ -1,12 +1,13 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: Georgia, serif;
 }
 
 .wrap {
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .inner-wrap {
@@ -17,6 +18,11 @@ body {
     align-items: center;
     justify-content: center;
     background: linear-gradient(90deg, #FFFF00 6%, #FFA500 25%, #F14444 45%, #D53567 55%, #9A109A 94%);
+}
+
+.inner-wrap-switch {
+    background-image: url("https://images.wallpaperscraft.ru/image/single/les_derevya_tuman_110131_1920x1080.jpg") ;
+    display: flex;
 }
 
 .back-element {
@@ -34,6 +40,58 @@ body {
     right: -60px;
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, .2);
-    background: rgba(255, 255 ,255, .4);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255 ,255, .25);
+    backdrop-filter: blur(4px);
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35rem;
+    margin-right: 35rem;
+}
+
+.settings-group {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.blur-range {
+    width: 200px;
+}
+
+.transparency-range {
+    width: 200px;
+}
+
+.lorem-ipsum {
+    padding: 10px;
+    color: white;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35rem;
+    margin-right: 35rem;
+    margin-top: 15px;
+}
+
+.text-representation {
+    display: none;
+}
+
+.pretty-btn {
+    text-decoration:none;
+    text-align:center;
+    border:solid 1px black;
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.pretty-btn:hover {
+    background: #71b2ef;
+    border:solid 1px #3899d5
 }
